@@ -50,7 +50,7 @@ export default {
     methods:{
         /**接收数据star*/
         getServiceInfo(){
-            this.axios.get('https://lishaoling1314.github.io/mylike/static/data/page.json')
+            this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/page.json')
             /**这里的axios与main.js文件的Vue.prototype后面带的名字一致,记得前面加上this**/
             .then((res)=>{
                 res=res.data;

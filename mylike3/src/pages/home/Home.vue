@@ -162,7 +162,7 @@ export default {
         // },
         /**接收数据star*/
         getHomeInfo(){
-            this.axios.get('https://lishaoling1314.github.io/mylike/static/data/index.json')
+            this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/index.json')
             /**这里的axios与main.js文件的Vue.prototype后面带的名字一致,记得前面加上this**/
             .then((res)=>{
                 res=res.data;
@@ -277,7 +277,7 @@ export default {
             //scrollH - clientH - scrollT<50
             if(scrollH - clientH == scrollT){
                 //console.log("滚动到底部啦");
-                this.axios.get('https://lishaoling1314.github.io/mylike/static/data/index.json').then((res)=>{
+                this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/index.json').then((res)=>{
                     res=res.data;
                     if(res.ret && res.data){
                         const data = res.data;	//一次请求，获得多组数据，分别赋值
@@ -334,6 +334,6 @@ export default {
     },
 }
 </script>
-<style src="@/assets/css/home.css" lang="stylus" scoped></style>
+<style src="@/assets/css/home.styl" lang="stylus" scoped></style>
 
 

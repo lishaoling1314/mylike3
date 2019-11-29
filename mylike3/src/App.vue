@@ -1,13 +1,25 @@
 <template>
   <div id="app">
-    <router-view/>
+      <router-view v-on:footer="footer"/>
+      <common-footer v-if="ft_show"></common-footer><!--加载共用悬浮的底部-->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  components: {
+  name: 'App',
+  data(){
+    return{
+      ft_show:true,
+      ftList:[]
+    }
+  },
+  methods:{
+      //是否显示底部
+      footer:function (bool) {
+          this.ft_show = bool;
+          console.log(bool);
+      },
   }
 }
 </script>
