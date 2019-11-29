@@ -1,0 +1,40 @@
+$bgcolor=#00bcd4
+$graycolor=#333
+$orgcolor=#ff8300
+$whitecolor=#fff
+$redcolor=#ff0000
+$headerheight=.8rem
+
+$w100=100%
+
+
+/*******字多后面以...结尾******/
+ellipsis()
+    overflow:hidden
+    white-space:nowrap
+    text-overflow:ellipsis
+/*******高度为0,为padding******/
+height0()
+    height 0
+    overflow hidden
+    
+load-more-gif()
+    text-align:center
+    padding:5% 0
+load-more-gifafter()
+    content:''
+    width: 20px
+    height:20px
+    border-radius:100% 100% 100% 0
+    border: 1px solid red
+    display: inline-block
+    border-bottom: none
+    border-left:none
+    box-sizing: border-box
+    vertical-align:sub
+    -webkit-animation:loading 1s linear infinite
+    animation:loading 1s linear infinite
+    margin-left:5%
+load-more-end()
+    text-align:center
+    padding-top:5%

@@ -1,0 +1,86 @@
+/****服务***/
+.service { color: #565656;}
+.service .banner{position:relative;height:0;overflow:hidden;padding-bottom:53%}
+.service .banner .pagBan{width:100%; position:absolute;bottom:2%;left:0;text-align:center;}
+.service .banner .pagBan >>> .swiper-pagination-bullet{margin:0 1%}
+.service .wrap{padding:5% 2%}
+.service .part{padding:3%; background:#fff;border-radius:0.2rem; margin-bottom: 5%;}
+.service .part .con{ padding:0 5%;text-align:center; display: flex; display: -webkit-flex; justify-content: space-around; align-items: center;}     
+.service .part h3{font-size:0.3rem;display:flex;display:-webkit-flex;align-items:center; border-bottom:1px solid #f2f2f2;padding-bottom:3%}
+.service .part h3:before{content:""; width:1%;height:0.3rem; background:#812ad3; margin-right:2%}
+.service .part ul{ flex:1; display: flex; display: -webkit-flex; justify-content: space-around; 
+flex-wrap: wrap;}
+.service .hytd ul li{ width:20%;text-align: center; padding-top: 5%;}
+.service .hytd ul li i{ display:inline-block; width:0.45rem; margin-bottom: 2%;}
+.service .hytd ul p{ line-height: 2; font-size: 0.22rem;}
+.service .kf ul li{ width:20%;text-align: center; padding-top: 3%;}
+.service .kf ul li i{ display:inline-block; width:0.55rem; margin-bottom: 2%;}
+.service .kf ul p{ line-height: 2; font-size: 0.22rem;}
+
+/****我的****/
+.me .user-info{
+    background: #8c25d5;
+    background: -webkit-linear-gradient(left, #8d24d6, #5e3acd);
+    background: -o-linear-gradient(right,  #8d24d6, #5e3acd);
+    background: -moz-linear-gradient(right,  #8d24d6, #5e3acd);
+    background: linear-gradient(to right, #8d24d6, #5e3acd);
+    padding:5% 5% 10%;
+}
+.me .user-info dl{display:flex;display:-webkit-flex;align-items:center;color:#fff; position: relative;}
+.me .user-info dt{margin:0 5%;position:relative;}
+.me .user-info dt em{display:block;border-radius:50%;overflow:hidden;width:1.51rem}
+.me .user-info dt b{display:block;width:0.32rem;height:0.32rem;line-height:1.3;background:#ff6380;border-radius:50%;
+    position:absolute;right:5%;bottom:0;font-size:0.23rem; text-align:center;
+    z-index:1;font-weight:bold}
+.me .user-info dd{flex:1;line-height:1.5;font-size:0.22rem;}
+.me .user-info dd i{font-size:0.32rem}
+.me .user-info dd em{ display:inline-block;width:0.28rem;vertical-align:bottom;margin-left:2%}
+.me .user-info dd p{color:#c99fec;font-size:0.24rem}
+.me .user-info dd small{color:#c99fec; margin:0 5%}
+.me .loginout{ width:30%; line-height:0.5rem; height:0.5rem; background: rgba(255,255,255,0.8); color: #000; 
+    border-radius:0.1rem; text-align: center; position: absolute; right:0; top:0; bottom:0; margin: auto 0;}
+.me .list{ padding:0 5%; margin-top:-5%;}
+.me .list .ti{ border-bottom:1px solid #f2f2f2; padding-bottom:3%;}
+.me .perinfo { background: #fff; border-radius:0.2rem; padding:5% 0; margin-bottom: 3%;}
+.me .perinfo ul{ display: flex; display: -webkit-flex; justify-content: space-around; font-size:0.21rem;}
+.me .perinfo ul li{ width:20%; text-align: center; line-height:1.2; border-right:1px solid #dcdcdc}
+.me .perinfo ul li span{ font-size:0.3rem;}
+.me .perinfo ul li i{ font-size:0.2rem;}
+.me .perinfo ul li p{ color: #7c7c7c;}
+.me .perinfo ul li:nth-last-child(1){ border: none;}
+.me .dingdan{ background: #fff; padding:5%;border-radius:0.2rem; margin-bottom: 3%;}
+.me .dingdan ul{ display: flex; display: -webkit-flex; justify-content: space-around;}
+.me .dingdan ul li{ width:20%;text-align: center; padding-top: 3%;}
+.me .dingdan ul li i{ display:inline-block; width:0.48rem; margin-bottom: 2%;}
+.me .dingdan ul p{ line-height: 2; font-size: 0.22rem;}
+.me .dongtai { background: #fff; border-radius:0.2rem; padding:5%; margin-bottom: 3%;}
+.me .dongtai ul{ display: flex; display: -webkit-flex; justify-content: space-around; font-size:0.21rem; padding-top:5%;}
+.me .dongtai ul li{ width:20%; text-align: center; line-height:1.2;}
+.me .dongtai ul li span{ font-size:0.3rem;}
+.me .dongtai ul li i{ font-size:0.2rem;}
+.me .dongtai ul li p{ color: #7c7c7c;}
+.me .dongtai ul li:nth-last-child(1){ border: none;}
+
+
+/****分类****/
+.fenlei{position: absolute;top:0; bottom: 1.4rem;width: 100%;max-width: 720px;
+    display: -webkit-box;display: -ms-flexbox;display: flex;overflow: hidden; background:#fff;}
+.fenlei .menu-wrapper{ width:30%; background: #f0f1f5;}
+.fenlei .menu-wrapper ul li{ padding:8% 0; line-height:2; text-align: center;}
+.fenlei .menu-wrapper ul li.active{ background: #fff;}
+.fenlei .fenlei-wrapper{ padding:0 0 3% 0; flex:1; -webkit-flex:1}
+.fenlei .fenlei-wrapper .title{ padding:5% 0;background:#f3f5f7;}
+.fenlei .fenlei-wrapper .title::before{content:"";display:inline-block;vertical-align:middle;
+width:0.03rem;background:#6540c6;height:0.3rem;margin-right:4%}
+.fenlei .fenlei-wrapper ul li{ display: flex; display: -webkit-flex; justify-content: space-between; padding:8% 3%;
+    border-bottom:1px dashed #ccc;
+}
+.fenlei .fenlei-wrapper ul li.active{ background: #fff;}
+.fenlei .fenlei-wrapper ul li img{width:1.56rem; height:1.56rem;}
+.fenlei .fenlei-wrapper ul li span{ flex:1; padding:0 3%}
+.fenlei .fenlei-wrapper ul li h2{ font-size:0.25rem;}
+.fenlei .fenlei-wrapper ul li p{ font-size:0.2rem; line-height:1.5; padding-top:5%; color: #93999f;
+    display: -webkit-box; -webkit-line-clamp:2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.fenlei .fenlei-wrapper ul li .price{ font-size:0.3rem;}
+.fenlei .fenlei-wrapper ul li a{ color: #ff0000; font-size:0.24rem; float: right; margin-right: 5%; margin-top: 8%;}
