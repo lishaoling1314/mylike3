@@ -1,0 +1,31 @@
+
+{
+    "ret": true,
+    "data":{
+        "ftList":[{
+            "id":"1",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico1.png",
+            "imgUrlActive":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico1-on.png",
+            "desc":"商城",
+            "path":"/home"
+        },{
+            "id":"2",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico2.png",
+            "imgUrlActive":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico2-on.png",
+            "desc":"颜值馆",
+            "path":"/yzg"
+        },{
+            "id":"3",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico3.png",
+            "imgUrlActive":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico3-on.png",
+            "desc":"服务",
+            "path":"/service"
+        },{
+            "id":"4",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico4.png",
+            "imgUrlActive":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/ft-ico4-on.png",
+            "desc":"我的",
+            "path":"/me"
+        }]
+    }
+}

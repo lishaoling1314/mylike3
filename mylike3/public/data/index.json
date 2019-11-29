@@ -1,0 +1,302 @@
+{
+    "ret": true,
+    "data":{
+        "navList":[{
+            "id":"0001",
+            "desc":"眼部"
+        },{
+            "id":"0002",
+            "desc":"肉毒素"
+        },{
+            "id":"0003",
+            "desc":"鼻部"
+        },{
+            "id":"0004",
+            "desc":"胸部"
+        },{
+            "id":"0005",
+            "desc":"脂肪填充"
+        },{
+            "id":"0006",
+            "desc":"纤体瘦身"
+        },{
+            "id":"0007",
+            "desc":"玻尿酸"
+        },{
+            "id":"0008",
+            "desc":"皮肤管理"
+        },{
+            "id":"0009",
+            "desc":"牙齿"
+        }],"swiperList":[{
+            "id":"0001",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/banner1.jpg"
+        },{
+            "id":"0002",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/banner2.jpg"
+        }],
+        "menuList":[
+        {
+            "id": "0001",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon1.png",
+            "desc": "热卖商品"
+        },{
+            "id": "0002",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon2.png",
+            "desc": "一元拼团"
+        },{
+            "id": "0003",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon3.png",
+            "desc": "邀请有礼"
+        },{
+            "id": "0004",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon4.png",
+            "desc": "粉丝福利"
+        },{
+            "id": "0005",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon5.png",
+            "desc": "分期付款"
+        },{
+            "id": "0006",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/home-icon6.png",
+            "desc": "大咖在线"
+        }],"advList":[{
+            "id": "01",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/yh1.jpg" 
+        },{
+            "id": "02",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/yh2.jpg"
+        },{
+            "id": "03",
+            "imgUrl": "http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/yh3.jpg"
+        }],
+        "freeList":[{
+            "id":"01",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        },{
+            "id":"02",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        },{
+            "id":"03",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        },{
+            "id":"04",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        },{
+            "id":"05",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        },{
+            "id":"06",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/freepic1.jpg",
+            "desc":"【祛痘印】肌肤完美新 生，让痘痘像从未来过",
+            "price":"0"
+        }],
+        "videoList":[{
+            "id":"01",
+            "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/shipin-pic.jpg",
+            "desc":"#内窥镜双平面丰胸   #假体隆胸"
+        }],
+		"huodongList":{
+		    "0":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+                "price":"2881",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+				"price":"28881",
+				"oldprice":"3888"
+			},{
+                "id":"03",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+                "price":"2881",
+                "oldprice":"3888"
+			},{
+				"id":"04",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+				"price":"28881",
+				"oldprice":"3888"
+			},{
+                "id":"05",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+                "price":"2881",
+                "oldprice":"3888"
+			},{
+				"id":"06",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"【韩式明眸翘睫大眼】闭眼无眼眼眼眼",
+				"price":"28881",
+				"oldprice":"3888"
+			}],
+			"1":[
+			{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"02",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"03",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"04",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"05",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"06",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"07",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			},{
+                "id":"08",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无肉毒素",
+                "price":"2882",
+                "oldprice":"3888"
+			}],
+           "2":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"【韩式明眸翘睫大眼】闭眼无鼻子",
+                "price":"2883",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"【韩式明眸翘睫大眼】闭眼无鼻子",
+				"price":"2883",
+				"oldprice":"3888"
+            }],
+            "3":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"胸部胸部胸部胸部胸部胸部胸部",
+                "price":"2884",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"胸部胸部胸部胸部胸部胸部胸部",
+				"price":"2884",
+				"oldprice":"3888"
+            }],
+            "4":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"脂肪填充脂肪填充脂肪填充脂肪填充",
+                "price":"2885",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"脂肪填充脂肪填充脂肪填充脂肪填充",
+				"price":"2885",
+				"oldprice":"3888"
+            },{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"脂肪填充脂肪填充脂肪填充脂肪填充",
+                "price":"2885",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"脂肪填充脂肪填充脂肪填充脂肪填充",
+				"price":"2885",
+				"oldprice":"3888"
+            }],
+            "5":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"纤体瘦身纤体瘦身纤体瘦身纤体瘦身",
+                "price":"2886",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"纤体瘦身纤体瘦身纤体瘦身纤体瘦身",
+				"price":"2886",
+				"oldprice":"3888"
+            }],
+            "6":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"玻尿酸玻尿酸玻尿酸玻尿酸玻尿酸",
+                "price":"2887",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"玻尿酸玻尿酸玻尿酸玻尿酸玻尿酸",
+				"price":"2887",
+				"oldprice":"3888"
+            }],
+            "7":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"皮肤管理皮肤管理皮肤管理皮肤管理",
+                "price":"2888",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"皮肤管理皮肤管理皮肤管理皮肤管理",
+				"price":"2888",
+				"oldprice":"3888"
+            }],
+            "8":[{
+                "id":"01",
+                "imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+                "desc":"牙齿牙齿牙齿牙齿牙齿牙齿",
+                "price":"2889",
+                "oldprice":"3888"
+			},{
+				"id":"02",
+				"imgUrl":"http://frontendengineer.gzmylike.cn/ling/mylike/src/assets/images/huodong1.jpg",
+				"desc":"牙齿牙齿牙齿牙齿牙齿牙齿",
+				"price":"2889",
+				"oldprice":"3888"
+			}]
+		}
+    }
+}
