@@ -1,12 +1,16 @@
 <template>
   <div class="fenlei">
-     <div class="menu-wrapper" ref="menuWrapper">
+     <div 
+     class="menu-wrapper" 
+     ref="menuWrapper"
+     >
        <ul>
            <li 
            v-for="(item,index) in fenleiList" 
            :key="index"
            :class="{'active':current === index}"
            @click="addClass(index)"
+           ref="navitem"
            >
               {{item.name}}
            </li>
@@ -79,8 +83,26 @@ export default {
             this.current=index;
             let fenleilist = this.$refs.fenleilist;
             let el = fenleilist[index];
-            //console.log(fenleilist);
             this.fenleiScroll.scrollToElement(el, 300);
+            let height = this.$refs.menuWrapper.getBoundingClientRect().height;//最外层的宽度
+            let litop= this.$refs.navitem[index].offsetTop;//li距离父级的左距离，记得父级要加上position:relative
+            let lih=this.$refs.navitem[index].clientHeight;//li的宽度
+            let cenh=litop + lih / 2;//滚动条中间值
+            let target = litop - cenh;//目标值
+            let maxTranslate=this.menuScroll.maxScrollY;//滚动条最大的偏移
+            let maxHeight = -maxTranslate + height / 2;
+            console.log(cenh,height/2,maxHeight);
+            if(cenh<height/2){
+                console.log(11);
+                this.menuScroll.scrollTo(0,0,300);
+            }else if(cenh > maxHeight){
+                console.log(22);
+                this.menuScroll.scrollTo(0,maxTranslate,300);
+            }else{
+                let target = lih - (height-lih)/2;//目标值
+                console.log(33,target);
+                this.menuScroll.scrollTo(0,target,300);
+            }
         }
     },
     mounted(){

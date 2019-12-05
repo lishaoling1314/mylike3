@@ -57,6 +57,9 @@ export default {
             myinfoList:[],
         }
     },
+    created:function () {
+        this.$emit('footer',true);//绑定底部导航是否显示
+    },
     methods:{
         /**接收数据star*/
         getMyInfo(){

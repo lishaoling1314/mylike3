@@ -205,7 +205,7 @@ export default {
             var clientH = document.documentElement.clientHeight || document.body.clientHeight; //元素的可见高度
             //console.log(scrollH - clientH - scrollT)
             if (scrollH - clientH - scrollT<100) {
-                this.axios.get('https://lishaoling1314.github.io/mylike/static/data/yzg.json').then((res)=>{
+                this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/yzg.json').then((res)=>{
                     res=res.data;
                     if(res.ret && res.data){
                         const data = res.data;	//一次请求，获得多组数据，分别赋值
