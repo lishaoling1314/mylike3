@@ -131,18 +131,21 @@ export default {
             let width = this.$refs.navwrap.getBoundingClientRect().width;//最外层的宽度
             let lileft= this.$refs.tabitem[index].offsetLeft;//li距离父级的左距离，记得父级要加上position:relative
             let liw=this.$refs.tabitem[index].clientWidth;//li的宽度
-            let cenw=(width-liw)/2;//滚动条中间值
-            let target = lileft - cenw;//目标值
+            let cenw=lileft+liw/2;//滚动条中间值
             let maxTranslate=this.scrolltab.maxScrollX;//滚动条最大的偏移
-            //console.log(lileft,cenw,target,lileft-width,target/2);
-            //console.log(lileft,width);
-            if(target<0){
+            let maxWidth=-maxTranslate + width / 2
+            console.log(cenw,width/2,maxWidth);
+            if (cenw < width / 2) {
                 this.scrolltab.scrollTo(0,0,300);
-            }else if(lileft-width>=0){
+                console.log(11);
+            } else if (cenw > maxWidth) {
                 this.scrolltab.scrollTo(maxTranslate,0,300);
-            }else{
-                this.scrolltab.scrollTo(-target,0,300);
+                console.log(22);
+            } else {
+                let nowTlanslate = cenw - liw / 2
+                this.scrolltab.scrollTo(-nowTlanslate,0,300);
             }
+
             var vm=this;
             this.$nextTick(()=>{
                 //图片加载完才获取top，不然top的值不正确
