@@ -63,7 +63,11 @@ export default {
     methods:{
         /**接收数据star*/
         getMyInfo(){
-            this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/page.json')
+            let url = this.GLOBAL.BASE_URL+'page.json'
+            this.axios({
+                url:url,
+                method:'get',
+            })
             /**这里的axios与main.js文件的Vue.prototype后面带的名字一致,记得前面加上this**/
             .then((res)=>{
                 res=res.data;

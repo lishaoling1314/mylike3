@@ -24,6 +24,7 @@ module.exports = {
     config.resolve.alias
       .set('@', resolve('src'))
       .set('css', resolve('src/assets/css'))
+      .set('js', resolve('src/assets/js'))
       .set('components', resolve('src/assets/components'))
       .set('images', resolve('src/assets/images'))
   }

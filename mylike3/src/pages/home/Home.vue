@@ -162,7 +162,11 @@ export default {
         // },
         /**接收数据star*/
         getHomeInfo(){
-            this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/index.json')
+            let url = this.GLOBAL.BASE_URL+'index.json'
+            this.axios({
+                url:url,
+                method:'get',
+            })
             /**这里的axios与main.js文件的Vue.prototype后面带的名字一致,记得前面加上this**/
             .then((res)=>{
                 res=res.data;

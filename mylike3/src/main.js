@@ -11,7 +11,13 @@ import 'css/iconfont.css'
 import 'swiper/dist/css/swiper.css'
 import VueLazyload from 'vue-lazyload'/*****图片懒加载*****/
 
+/***引用共用的接口star*/
+import global_ from 'js/axios.js'
+Vue.prototype.GLOBAL = global_;
+axios.defaults.baseURL=global_.BASE_URL;
 import axios from 'axios'/**引入共用的axios**/
+/***引用共用的接口end*/
+
 import { Store } from 'vuex'
 Vue.prototype.axios = axios/**为了让别的组件能用axios,这句加上**/
 

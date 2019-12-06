@@ -50,13 +50,17 @@ export default {
     methods:{
         /**接收数据star*/
         getServiceInfo(){
-            this.axios.get('https://lishaoling1314.github.io/mylike3/mylike3/public/data/page.json')
+            let url = this.GLOBAL.BASE_URL+'page.json'
+            this.axios({
+                url:url,
+                method:'get',
+            })
             /**这里的axios与main.js文件的Vue.prototype后面带的名字一致,记得前面加上this**/
             .then((res)=>{
                 res=res.data;
                 if(res.ret && res.data){
                     const data = res.data;	//一次请求，获得多组数据，分别赋值
-                    console.log(res.data);
+                    //console.log(res.data);
                     this.swiperList = data.swiperList;
                     this.hytdList = data.hytdList;
                     this.kfList = data.kfList;
