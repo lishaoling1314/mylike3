@@ -142,10 +142,9 @@ export default {
                 this.scrolltab.scrollTo(maxTranslate,0,300);
                 console.log(22);
             } else {
-                let nowTlanslate = cenw - liw / 2
+                let nowTlanslate = cenw - width / 2
                 this.scrolltab.scrollTo(-nowTlanslate,0,300);
             }
-
             var vm=this;
             this.$nextTick(()=>{
                 //图片加载完才获取top，不然top的值不正确

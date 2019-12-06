@@ -253,7 +253,7 @@ export default {
                 this.scrolltab.scrollTo(maxTranslate,0,300);
                 console.log(22);
             } else {
-                let nowTlanslate = cenw - liw / 2
+                let nowTlanslate = cenw - width / 2
                 this.scrolltab.scrollTo(-nowTlanslate,0,300);
             }
             //点击滑到活动版块
